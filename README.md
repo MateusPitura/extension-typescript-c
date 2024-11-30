@@ -1,71 +1,54 @@
-# c-compile-run README
+# C Compiler Run Button Extension
 
-This is the README for your extension "c-compile-run". After writing up a brief description, we recommend including the following sections.
+This Visual Studio Code extension adds a **Run** button to C files that allows you to easily compile and run your C programs directly from the editor. It also offers an option to **just compile** or **insert the compile command** into the terminal without executing it.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Run Button**: Compiles and runs your C program with a single click.
+- **Compile Only**: Option to compile the C file without running it.
+- **Insert Command**: Adds the compile command to the terminal without executing it, so you can modify it if needed.
 
-For example if there is an image subfolder under your extension project workspace:
+## Commands
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Run**: Compiles and runs the selected C file.
+- **Compile Only**: Compiles the C file without executing it.
+- **Insert Compile Command**: Inserts the compile command into the terminal without executing it.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code (v1.x or higher)
+- GCC (GNU Compiler Collection) installed and accessible in the system path.
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Install the extension from the Visual Studio Code Marketplace.
+   - Search for "C Compiler Run Button" in the Extensions view (`Ctrl+Shift+X`).
+   - Click "Install".
 
-For example:
+2. Or, you can install the extension manually from the `.vsix` file.
 
-This extension contributes the following settings:
+## Usage
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+1. Open a `.c` file in Visual Studio Code.
+2. You should see a **Run** button in the editor toolbar.
+3. Click the **Run** button to compile and run your program, or use the command palette (`Ctrl+Shift+P`) to choose other available options:
+   - **Compile Only**: Compiles the C file without running it.
+   - **Insert Compile Command**: Inserts the compile command in the terminal without executing it.
 
-## Known Issues
+## Troubleshooting
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- **GCC not found**: Make sure that GCC is installed and added to your system's path.
+- **Terminal issues**: If a terminal doesn’t open or the command doesn’t execute, ensure that your VS Code has proper permissions to create and interact with terminals.
 
-## Release Notes
+## License
 
-Users appreciate release notes as you update your extension.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### 1.0.0
+## Acknowledgements
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Thanks to the Visual Studio Code team for providing the great API and platform for building extensions.
+- GCC for being the compiler we rely on for C programming.
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Feel free to submit issues or pull requests to improve the extension!
