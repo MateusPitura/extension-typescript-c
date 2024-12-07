@@ -34,7 +34,7 @@ Simplify your C programming workflow with the C Compile & Run extension. This ex
 
 ## How to Run
 
-1. In VSCode search for `C - Compile & Run`
+1. In VSCode search for `C - Compile & Run` in extensions tab
 
 Or
 
