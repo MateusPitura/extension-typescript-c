@@ -2,7 +2,8 @@
   "name": "c-compile-run",
   "displayName": "C - Compile & Run",
   "description": "Compile and Run C",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "publisher": "MateusPitura",
   "engines": {
     "vscode": "^1.95.0"
   },
