@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/github/stars/MateusPitura/extension-typescript-c?style=social"> 
 </p> 
 
-> :checkered_flag: This project is finished :checkered_flag:  
+> 🏁 This project is finished 🏁  
 
 ## Description 
 
@@ -29,7 +29,7 @@ Simplify your C programming workflow with the C Compile & Run extension. This ex
 ⚙️ **Quick Setup:** automatically detect and configure
 
 <p align="center"> 
-    <video src="https://github.com/user-attachments/assets/1c4b6b3c-7407-4d16-9645-f00f4ff3fb75" width="25%"> 
+    <video src="https://github.com/user-attachments/assets/1c4b6b3c-7407-4d16-9645-f00f4ff3fb75"/> 
 </p> 
 
 ## How to Run
@@ -52,7 +52,7 @@ Or
 
 ## Technologies Used
 
-:heavy_check_mark: TypeScript
+✔️ TypeScript
 
 ## Authors 
 
