@@ -4,6 +4,7 @@
   "description": "Compile and Run C",
   "version": "0.1.0",
   "publisher": "MateusPitura",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.95.0"
   },
