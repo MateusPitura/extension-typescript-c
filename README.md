@@ -1,54 +1,60 @@
-# C Compiler Run Button Extension
+<h1 align="center"> 
+  <p>C - Compile & Run</p> 
+</h1> 
 
-This Visual Studio Code extension adds a **Run** button to C files that allows you to easily compile and run your C programs directly from the editor. It also offers an option to **just compile** or **insert the compile command** into the terminal without executing it.
+<p> 
+  <img src="https://img.shields.io/badge/Release-Dec%202024-green">  
+  <img src="https://img.shields.io/badge/Version-0.0.1-blue">  
+  <img src="https://img.shields.io/badge/Status-Closed-brightgreen">  
+  <img src="https://img.shields.io/github/stars/MateusPitura/extension-typescript-c?style=social"> 
+</p> 
 
-## Features
+> :checkered_flag: This project is finished :checkered_flag:  
 
-- **Run Button**: Compiles and runs your C program with a single click.
-- **Compile Only**: Option to compile the C file without running it.
-- **Insert Command**: Adds the compile command to the terminal without executing it, so you can modify it if needed.
+## Description 
 
-## Commands
+Simplify your C programming workflow with the C Compile & Run extension. This extension provides a seamless experience for compiling and running C programs with GCC directly within Visual Studio Code
 
-- **Run**: Compiles and runs the selected C file.
-- **Compile Only**: Compiles the C file without executing it.
-- **Insert Compile Command**: Inserts the compile command into the terminal without executing it.
+- [Features](#features)
+- [How to Run](#how-to-run)
+- [Technologies Used](#technologies-used)
+- [Authors](#authors)
 
-## Requirements
+## Features 
 
-- Visual Studio Code (v1.x or higher)
-- GCC (GNU Compiler Collection) installed and accessible in the system path.
+🚀 **One-Click Compilation:** compile your C programs with a single click
 
-## Installation
+🖥️ **Integrated Execution:** run your compiled programs directly within the VSCode terminal
 
-1. Install the extension from the Visual Studio Code Marketplace.
-   - Search for "C Compiler Run Button" in the Extensions view (`Ctrl+Shift+X`).
-   - Click "Install".
+⚙️ **Quick Setup:** automatically detect and configure
 
-2. Or, you can install the extension manually from the `.vsix` file.
+<p align="center"> 
+  <img src="link do gif ou vídeo" width="25%"> 
+</p> 
 
-## Usage
+## How to Run
 
-1. Open a `.c` file in Visual Studio Code.
-2. You should see a **Run** button in the editor toolbar.
-3. Click the **Run** button to compile and run your program, or use the command palette (`Ctrl+Shift+P`) to choose other available options:
-   - **Compile Only**: Compiles the C file without running it.
-   - **Insert Compile Command**: Inserts the compile command in the terminal without executing it.
+1. In VSCode search for `C - Compile & Run`
 
-## Troubleshooting
+Or
 
-- **GCC not found**: Make sure that GCC is installed and added to your system's path.
-- **Terminal issues**: If a terminal doesn’t open or the command doesn’t execute, ensure that your VS Code has proper permissions to create and interact with terminals.
+1. Launch VS Code Quick Open (Ctrl+P), paste `ext install MateusPitura.c-compile-run`, and press enter
 
-## License
+**For devs:** 
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. `git clone git@github.com:MateusPitura/extension-typescript-c.git`  
 
-## Acknowledgements
+2. `npm install` 
 
-- Thanks to the Visual Studio Code team for providing the great API and platform for building extensions.
-- GCC for being the compiler we rely on for C programming.
+3. 
 
----
+## Technologies Used
 
-Feel free to submit issues or pull requests to improve the extension!
+:heavy_check_mark: TypeScript
+
+## Authors 
+
+| Mateus Pitura | 
+|------| 
+| <p align="center"><img src="https://user-images.githubusercontent.com/119008106/227821967-fac62c31-0d62-485b-829e-ef56c033e21a.jpeg" width="100" height="100"></p> | 
+| <a href="https://www.linkedin.com/in/mateuspitura/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> |
