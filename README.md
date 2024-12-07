@@ -46,7 +46,9 @@ Or
 
 2. `npm install` 
 
-3. 
+3. To test, press `F5`
+   
+4. To create a package, run `vsce package`
 
 ## Technologies Used
 
