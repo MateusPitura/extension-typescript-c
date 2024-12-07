@@ -48,7 +48,7 @@ Or
 
 3. To test, press `F5`
    
-4. To create a package, run `vsce package`
+4. To create a `.vsix` file, run `vsce package`
 
 ## Technologies Used
 
