@@ -29,7 +29,7 @@ Simplify your C programming workflow with the C Compile & Run extension. This ex
 ⚙️ **Quick Setup:** automatically detect and configure
 
 <p align="center"> 
-  <img src="link do gif ou vídeo" width="25%"> 
+    <video src="https://github.com/user-attachments/assets/1c4b6b3c-7407-4d16-9645-f00f4ff3fb75" width="25%"> 
 </p> 
 
 ## How to Run
