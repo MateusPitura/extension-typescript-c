@@ -2,7 +2,7 @@
   "name": "c-compile-run",
   "displayName": "C - Compile & Run",
   "description": "Compile and Run C",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "MateusPitura",
   "icon": "icon.png",
   "repository": {

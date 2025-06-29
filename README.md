@@ -40,15 +40,21 @@ Or
 
 1. Launch VS Code Quick Open (Ctrl+P), paste `ext install MateusPitura.c-compile-run`, and press enter
 
-**For devs:** 
+**For devs:**
 
-1. `git clone git@github.com:MateusPitura/extension-typescript-c.git`  
+1. To test, press `F5`
 
-2. `npm install` 
+2. Update the CHANGELOG
 
-3. To test, press `F5`
-   
-4. To create a `.vsix` file, run `vsce package`
+3. Update version references
+
+4. Compile with `vsce package`
+
+5. Upload the `.vsix` to Visual Studio Marketplace
+
+6. Create a tag in Git and upload to GitHub
+
+7. Create a new release on GitHub
 
 ## Technologies Used
 
